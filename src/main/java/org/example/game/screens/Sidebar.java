@@ -14,9 +14,15 @@ public class Sidebar extends JPanel {
         this.editableContent = editableContent;
         this.setBounds(x, y, width, height);
         List<JButton> buttons = List.of(
-                createButton("Speed up player", editableContent::acceleratePlayer),
-                createButton("Freeze the balls", editableContent::setFreezeButtonClicked),
-                createButton("Hide random ball", editableContent::hideBall)
+                createButton("Speed up player", () -> {
+
+                }),
+                createButton("Freeze the balls", () -> {
+
+                }),
+                createButton("Hide ball", () -> {
+
+                })
         );
         for(JButton button : buttons) {
             this.add(button);
