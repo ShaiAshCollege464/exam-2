@@ -20,7 +20,7 @@
             <artifactId>my-helper-lib</artifactId>
             <version>1.0.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/exam-helper-12.jar</systemPath>
+            <systemPath>${project.basedir}/lib/exam-helper-16.jar</systemPath>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
